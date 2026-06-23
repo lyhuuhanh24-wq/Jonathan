@@ -509,7 +509,34 @@ Table captions must not appear in the WPS navigation pane.
 
 ---
 
-### 12.3 Formula Formatting
+### 12.3 Table Body Formatting
+
+Tables in thesis-style documents should use the three-line table format by default. If the original document contains full-grid tables, colored tables, shaded tables, dense bordered tables, or any other non-three-line table style, convert them to three-line tables while preserving the meaning of the table content.
+
+Three-line table requirements:
+
+* Use no fill color; all table text must be black.
+* Keep only the table top border, the horizontal border below the header row, and the table bottom border.
+* Remove vertical borders and unnecessary internal horizontal borders.
+* Use black solid lines; the top and bottom borders may be slightly thicker than the header separator.
+* Header cells may be bold; use 宋体 for Chinese text and Times New Roman for English/numeric text.
+* Use 五号 or 小五 font size by default; reduce slightly only when needed for fit and readability.
+* Center the table on the page.
+* Adjust table width, column widths, row spacing, and cell margins for a clean academic appearance; avoid text touching borders, clipped text, cramped rows, or excessive blank space.
+
+Content alignment and beautification rules:
+
+* Center header cells by default.
+* Center short fields such as sequence numbers, codes, scores, percentages, dates, status values, categories, and short labels.
+* Align concise text columns such as indicator names, defect types, or field names by visual judgment; keep the whole column consistent.
+* Left-align long explanations, causes, measures, effects, notes, remarks, and multi-line sentence-style content.
+* Keep numeric columns consistently aligned; center them by default, or right-align / decimal-align when comparing amounts or decimals.
+* Do not mix noticeably inconsistent alignment within the same column.
+* If a table is too wide, first adjust column widths, then use reasonable wrapping, modest font reduction, or landscape orientation; do not let tables exceed page margins.
+
+---
+
+### 12.4 Formula Formatting
 
 Formula formatting rules:
 
@@ -822,7 +849,9 @@ Before delivering the edited file, check:
 10. Is the original academic content preserved unless rewriting was requested?
 11. Is all visible text black, including headings, body text, TOC, captions, tables, references, headers, and footers?
 12. Do the abstract and TOC each start on a new page?
-13. Is the new file saved without overwriting the original?
+13. Are all thesis tables converted to three-line tables, with non-three-line, colored, shaded, or dense-grid tables cleaned up?
+14. Are table column widths, cell padding, font size, and text alignment optimized for readability and academic appearance?
+15. Is the new file saved without overwriting the original?
 
 ---
 
@@ -847,4 +876,5 @@ Report back to the user with:
 4. Whether non-thesis-style modules were removed or downgraded;
 5. Whether the front TOC was updated;
 6. Whether WPS navigation was repaired;
-7. Any limitations or items requiring manual checking.
+7. Whether tables were converted to three-line tables and visually optimized;
+8. Any limitations or items requiring manual checking.

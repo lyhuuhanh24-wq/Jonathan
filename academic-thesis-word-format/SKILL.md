@@ -166,6 +166,18 @@ Instead:
 
 ## 6. Table of Contents Formatting
 
+### 6.0 Front Matter Page Breaks
+
+The abstract and table of contents must each start on a new page.
+
+Requirements:
+
+* Insert a page break before the Chinese abstract title “摘要” so the abstract starts at the top of a new page.
+* Insert a page break before the TOC title “目录” so the TOC starts at the top of a new page.
+* Do not allow the abstract body and TOC to appear on the same page.
+* If “摘要” or “目录” is already at the top of a new page, do not insert an extra page break that creates a blank page.
+* If the document contains an English abstract, place it on its own page when required by the institution or the user; at minimum, ensure the Chinese abstract and TOC are on separate pages.
+
 ### 6.1 TOC Title
 
 The title “目录” must be formatted as:
@@ -192,6 +204,8 @@ TOC entries must be formatted as:
 The TOC must be generated or updated based on real heading styles and outline levels.
 
 Do not manually type a fake TOC unless automatic TOC generation is impossible.
+
+The TOC must start on a new page and must not share a page with the abstract or other front-matter content.
 
 ---
 
@@ -302,6 +316,8 @@ If lower-level headings such as `1.1.1.1` are retained, ensure they do not clutt
 
 ## 8. Body Text Formatting
 
+All visible text in the full document must use black font color, including cover text, abstracts, TOC entries, headings, body text, figure captions, table captions, table cell text, formula numbers, references, headers, and footers. Unless the user explicitly asks to preserve colored annotations or tracked-review marks, remove non-black font colors.
+
 All normal body paragraphs must be formatted as:
 
 * Style: Normal / 正文
@@ -359,6 +375,8 @@ If the user explicitly wants list items to become formal headings, convert them 
 ---
 
 ## 10. Abstract Formatting
+
+The Chinese abstract must start at the top of a new page. It must not share a page with the table of contents.
 
 ### 10.1 Chinese Abstract Title
 
@@ -497,6 +515,7 @@ Formula formatting rules:
 
 * Formula body: centered;
 * Formula number: right aligned;
+* Formula body and formula number: black font color;
 * Keep formula content unchanged;
 * Keep formula numbering unchanged unless the user requests renumbering.
 
@@ -748,6 +767,7 @@ After any formatting or structural adjustment:
 4. Ensure TOC hierarchy matches real heading styles.
 5. Ensure normal body text, list items, captions, and case text do not enter the TOC.
 6. Ensure the WPS navigation pane shows only formal academic headings.
+7. Ensure the abstract and TOC each start on a new page and are not on the same page.
 
 Expected navigation structure:
 
@@ -800,7 +820,9 @@ Before delivering the edited file, check:
 8. Are list items excluded from navigation?
 9. Are non-thesis-style modules removed or downgraded when required?
 10. Is the original academic content preserved unless rewriting was requested?
-11. Is the new file saved without overwriting the original?
+11. Is all visible text black, including headings, body text, TOC, captions, tables, references, headers, and footers?
+12. Do the abstract and TOC each start on a new page?
+13. Is the new file saved without overwriting the original?
 
 ---
 
